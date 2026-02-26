@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ahmed99v.github.io/seo-testing/sitemap.xml
