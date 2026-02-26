@@ -1,0 +1,54 @@
+ENTITY MODEL: SYSTEMATIC LONG-TAIL KEYWORD GENERATION
+=====================================================
+
+CORE ENTITIES:
+--------------
+1. ROLE: {React Developer, Python Developer, Node.js Engineer, Full-stack Developer, 
+          DevOps Specialist, Vue.js Developer, Frontend Developer, Backend Engineer, 
+          Angular Developer, Cloud Architect, ...}
+   - Can expand to 50+ tech roles
+
+2. SENIORITY: {Junior, Mid-level, Senior, Lead, Principal, Team, ...}
+   - 6-8 levels typically
+
+3. LOCATION: {Dubai, Riyadh, Abu Dhabi, Kuwait, Doha, Qatar, Jeddah, UAE, 
+              Bahrain, Saudi Arabia, ...}
+   - Can expand to 20+ GCC cities/countries
+
+4. INTENT: {informational, transactional}
+   - Informational: "find", "best", "how to hire", "what is"
+   - Transactional: "hire", "recruit", "get", "book"
+
+5. KEYWORD PATTERNS:
+   - Pattern A: "[action] [seniority] [role] in [location]"
+   - Pattern B: "[action] [role] [location]"
+   - Pattern C: "[action] [seniority] [role] [location]"
+   - Pattern D: "[descriptor] [role] [location]"
+
+GENERATION FORMULA:
+-------------------
+Total Combinations = (Roles × Seniorities × Locations × Intent Patterns × Action Verbs)
+
+Example calculation:
+- 50 roles × 6 seniorities × 20 locations × 2 intents × 3 action verbs = 36,000 keywords
+
+SYSTEMATIC APPROACH:
+--------------------
+1. Create master lists for each entity (roles, seniorities, locations)
+2. Define intent-action mapping:
+   - Transactional: ["hire", "recruit", "get", "book", "find"]
+   - Informational: ["find", "best", "how to", "what is", "top"]
+3. Apply pattern templates to generate all combinations
+4. Filter duplicates and invalid combinations
+5. Assign estimated search volumes based on:
+   - Location popularity (Dubai > smaller cities)
+   - Role demand (React > niche roles)
+   - Seniority distribution (Mid-level > Junior/Senior)
+   - Intent preference (transactional > informational)
+
+OPTIMIZATION RULES:
+-------------------
+- Skip combinations where seniority doesn't match role (e.g., "Junior Cloud Architect")
+- Prioritize high-demand locations first
+- Generate transactional keywords first (higher conversion intent)
+- Add location variations (city vs country level)
